@@ -5,9 +5,10 @@ public static void main(String[] args)
         int[] numeros = {5,4,3,-9,-6,-3}; 
         int indice = 0;
         int resultado;
-        int[] numerosCero = new int[numeros.length];
+        int[] numerosCero = new int[numeros.length];//same size as the array because it can be full of numbers that their sum is equal to 0
         int numAnterior;
         int numSiguiente;
+        //If there's no number on the array
         if(numeros.length==0)
         {
             System.out.println("No existe datos para revisar");
